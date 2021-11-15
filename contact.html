@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+
+    <title>Contact Us</title>
+    <!--Color Palette: purple #9453A6 green #8CBF3F yellow #F2cc0F white #F2F2F2 black #0D0D0D -->
+</head>
+
+<body>
+    <header class="head">
+        <!--HEADER-->
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="mainlogo" src="Images/logo3.png" alt="Mardi Gras New Orleans">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-list" style="font-size: 2rem; color: #f7faff;"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-fill w-100">
+                            <li class="nav-item">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="media.html">Media</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="active-page" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--END HEADER-->
+    <div class="container">
+        <div class="textzone">
+            <h2>Contact Us</h2>
+        </div>
+        <form class="form" action="thanku.html">
+            <div class="formControl">
+                <label class="d-none d-lg-flex" for="firstName">First Name</label>
+                <input type="text" id="firstName" placeholder="First Name">
+                <small>Error Message</small><br>
+            </div>
+            <div class="formControl">
+                <label class="d-none d-lg-flex" for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="Last Name">
+                <small>Error Message</small><br>
+            </div>
+            <div class="formControl">
+                <label class="d-none d-lg-flex" for="email">Email Adress</label>
+                <input type="email" id="email" placeholder="Email Adress">
+                <small>Error Message</small><br>
+            </div>
+            <div class="formControl">
+                <label class="d-none d-lg-flex" for="textarea">Textarea</label>
+                <input type="text" id="textarea" placeholder="Your Message">
+                <small>Error Message</small><br>
+            </div>
+            <input class="submit" type="submit" value="Send">
+        </form>
+        <iframe class="nolamap"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d482736.11798021477!2d-90.21682349538455!3d29.911344066188967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a665b6e83859%3A0x4e72d9c967d28d8e!2sMardi%20Gras%20World!5e0!3m2!1sen!2sil!4v1624013014597!5m2!1sen!2sil"
+            style="border-radius:10px; display: flex;" loading="lazy">
+        </iframe>
+    </div>
+    <!--FOOTER-->
+    <div class="container-fluid">
+        <footer>
+            <div class="container">
+                <section class="footer">
+                    <div class="shelly text-white">Shelly Shamay - All Rights Reserved 2021©</div>
+                    <!-- Facebook -->
+                    <a class="btn btn-floating" href="https://www.facebook.com/MardiGrasNewOrleans" target="_blank"
+                        role="button"><i class="bi bi-facebook" style="font-size: 1.0rem; color: #fff;"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="btn btn-floating m-1" href="https://twitter.com/MardiGrasNOLA" target="_blank"
+                        role="button"><i class="bi bi-twitter" style="font-size: 1.0rem; color: #fff;"></i>
+                    </a>
+                    <!-- Instagram -->
+                    <a class="btn btn-floating" href="https://www.instagram.com/mardigrasneworleans/" target="_blank"
+                        role="button"><i class="bi bi-instagram" style="font-size: 1.0rem; color: #fff;"></i>
+                    </a>
+                    <!-- YouTube -->
+                    <a class="btn btn-floating" href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q"
+                        target="_blank" role="button"><i class="bi bi-youtube"
+                            style="font-size: 1.0rem; color: #fff;"></i>
+                    </a>
+                </section>
+            </div>
+        </footer>
+    </div>
+    <!--END FOOTER-->
+    <!--Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+    <script src="FormValidation.js"></script>
+</body>
+
+</html>
